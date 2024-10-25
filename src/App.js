@@ -6,8 +6,9 @@ import Offer from './Components/Offer/Offer';
 import Hr from './Components/Hr/Hr';
 import WhySection from './Components/WhySection/WhySection';
 import ReviewsSection from './Components/ReviewsSection/ReviewsSection';
-
-
+import PartnersSection from './Components/PartnersSection/PartnersSection';
+import WhoSection from './Components/WhoSection/WhoSection';
+import TicketsSection from './Components/TicketsSection/TicketsSection';
 function App() {
   return (
     <>
@@ -19,6 +20,11 @@ function App() {
       <Hr />
       <ReviewsSection />
       <Hr />
+      <PartnersSection />
+      <Hr />
+      <WhoSection />
+      <Hr />
+      <TicketsSection />
     </>
   );
 }

@@ -1,0 +1,105 @@
+.ticket-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fos-ticket-h2 {
+  margin: 30px 0;
+}
+
+.fos-ticket-p {
+  margin: 30px 0;
+  font-weight: 800;
+  font-size: 1.125rem;
+}
+
+.ticket {
+  background-color: #f8f8f8;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ticket-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+}
+
+.ticket-head p {
+  font-size: 1.875rem;
+  color: #1d1d1d;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ticket-head p sup {
+  text-decoration: line-through;
+  color: #585858;
+  font-size: 1.25rem;
+  margin-right: 4px;
+}
+
+.ticket-head p strong {
+  color: #050505;
+}
+
+.ticket ul {
+  margin-bottom: 24px;
+  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #272727;
+  margin: 16px 20px 60px 20px;
+}
+
+.ticket ul li {
+  margin: 4px 0;
+}
+
+.fos-ticket-button {
+  font-family: "Arimo", sans-serif;
+  background-color: #2DA719;
+  border: 0;
+  padding: 13px 48px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #f8f8f8;
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+#ticket-hr {
+  width: 100%;
+  background-color: #272727;
+  height: 4px;
+  border: 0;
+  opacity: 1;
+  margin: 24px, 0px;
+}
+
+.fos-ticket-button:hover {
+  background-color: #3ed427;
+}
+
