@@ -1,0 +1,49 @@
+.red-text {
+  color: #cd1e1e;
+}
+
+h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: #050505;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Arimo", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+
+p {
+  font-family: "Fira Mono", monospace;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #272727;
+  margin-top: 12px;
+}
+
+.fos-button {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+  color: f8f8f8;
+  background-color: #cd1e1e;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  padding: 13px 48px;
+}
+
+.fos-button:hover {
+  filter: brightness(1.2);
+  filter: saturate(1.5);
+  background-color: #ff0b0b;
+}
+

@@ -1,0 +1,45 @@
+.fos-ss-h1 {
+  font-size: 7.5em;
+  font-weight: 800;
+  color: #f8f8f8;
+}
+
+.fos-ss-p {
+  font-size: 1.375rem;
+  color: #f8f8f8;
+  font-weight: 500;
+}
+
+#fos-ss-button {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.fos-ss-button:hover {
+  background-color: #ff0b0b;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .fos-ss-h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .fos-ss-h1 {
+    font-size: 3.75rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fos-ss-h1 {
+    font-size: 2.5rem;
+  }
+
+  .fos-ss-p {
+    font-size: 1.125rem;
+  }
+
+  #fos-ss-button {
+    font-size: 1.25rem;
+  }
+}
