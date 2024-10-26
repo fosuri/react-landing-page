@@ -1,0 +1,95 @@
+.form-section .privacy-policy {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.125rem;
+  color: #585858;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-section .privacy-policy a {
+  color: #585858;
+}
+
+.form-section .privacy-policy a:hover {
+  color: #050505;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+}
+
+.subtitle {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: #272727;
+  text-align: center;
+}
+
+.open-form {
+  width: 936px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.input-div {
+  border: 3px solid #1d1d1d;
+  background-color: #e1e1e1;
+  padding: 12px;
+  width: 100%;
+}
+
+.input-div select, .input-div input {
+  border: 0;
+  outline: 0;
+  background-color: #e1e1e1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+  color: #585858;
+}
+
+#phone {
+  display: flex;
+  gap: 12px;
+}
+
+#phonecode {
+  width: 100px;
+  color: #050505;
+}
+
+.two-col {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.open-form .button {
+  width: 100%;
+  padding: 13px 0px;
+}
+
+.button {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+  color: #f8f8f8;
+  background-color: #CD1E1E;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.button:hover {
+  filter: brightness(1.2);
+  filter: saturate(1.5);
+}

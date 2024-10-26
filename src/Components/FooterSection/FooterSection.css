@@ -1,0 +1,71 @@
+.footer-image {
+  background-image: url("../../assets/images/startscreen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.footer-image p {
+  font-family: "Arimo", sans-serif;
+  color: #f8f8f8;
+  font-size: 3.75rem;
+  font-weight: 600;
+  padding: 70px 0;
+}
+
+.footer-line {
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.footer-line p, .footer-line svg {
+  float: left;
+}
+
+.footer-line p {
+  padding-left: 12px;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.125rem;
+  color: #1d1d1d;
+  font-weight: 500;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.375rem;
+  color: #1d1d1d;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 24px;
+}
+
+.goup {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #1d1d1d;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: right;
+  padding: 6px 0;
+}
+
+
+
+footer hr {
+  margin-bottom: 60px;
+  margin-top: 4px;
+}
+
+.footer-container {
+  width: 50%;
+}

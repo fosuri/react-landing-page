@@ -9,6 +9,8 @@ import ReviewsSection from './Components/ReviewsSection/ReviewsSection';
 import PartnersSection from './Components/PartnersSection/PartnersSection';
 import WhoSection from './Components/WhoSection/WhoSection';
 import TicketsSection from './Components/TicketsSection/TicketsSection';
+import ReservationSection from './Components/ReservationSection/ReservationSection';
+import Footer from './Components/FooterSection/FooterSection';
 function App() {
   return (
     <>
@@ -25,6 +27,10 @@ function App() {
       <WhoSection />
       <Hr />
       <TicketsSection />
+      <Hr />
+      <ReservationSection />
+      <Hr />
+      <Footer />
     </>
   );
 }
